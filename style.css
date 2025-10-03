@@ -25,3 +25,18 @@
     background-repeat: no-repeat;
     float: left;
 }
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation:anim 20s slider infinite;
+}
+.slider figure div ::before{
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background:rgb(218, 101, 101,0.4) ;
+}
