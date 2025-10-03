@@ -40,3 +40,14 @@
     z-index: 5;
     background:rgb(218, 101, 101,0.4) ;
 }
+/*text*/
+p{
+   
+    top: 380px;
+    padding: 30px;
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+    background: #e74c3c;
+    border: #fff 3px solid;
+}
